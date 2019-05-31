@@ -1,0 +1,97 @@
+html, body {
+    /* background-color: azure; */
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* overflow: hidden; */
+}
+
+div.icm-image{
+    background-image: url(../img/african-child-1381553__340.jpg);
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+div.myimage{
+    background-image: url(../img/african-child-1381553__340.jpg);
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#merimage{
+    float: left;
+    image-orientation: from-image;
+}
+/* .nav-item {
+    background: teal;
+    color: rgb(47, 5, 87);
+} */
+.nav-item a:hover {
+    background: thistle;
+    color: aliceblue;
+}
+.nav-item a.active {
+    background: wheat;
+    color: bisque;
+}
+.navbar-toggler-icon a {
+    background: green;
+    color: rgb(24, 134, 72);
+    /* display: ruby-text; */
+}
+.description h2{
+    text-transform: uppercase;
+}
+.description {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.jumbotron h1 {
+    text-transform: uppercase;
+}
+.jumbotron a{
+    border-color: black;
+    color: brown;
+}
+footer {
+    background-color: rgb(24, 15, 65);
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+footer a {
+    padding: 15px;
+    /* font-size: 1.2rem */
+}
+footer p{
+    color: crimson;
+}
+.you {
+    text-align: center;
+}
+.descriptions button {
+    border-color: black;
+    color: brown;
+    font-size: 1.2em;
+}
+/* .dropbutton:hover, .dropbutton:focus{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+    background: -moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+} */
+
+@media screen and (min-width: 480px) {
+    body{
+        background-color: azure;
+    }
+}

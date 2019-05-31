@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="style/css" href="img/images (10).png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Every Child Counts</title>
+    </head>
+    <body>
+        <!--adding navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-baby">CHPro</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="goals.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Goals
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="goals.html">Problem</a>
+                        <a class="dropdown-item" href="goals.html">Solution</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html" tabindex="-1" arial-disabled="true">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Make Donation</a>
+                    </li>
+                  </ul>
+                  <div class="nav navbar-nav">
+                      <ul class="nav navbar-nav right button" >
+                          <a class="nav-link" href="volunteer.html"><button >Sign up</button></a>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+              <!--adding images-->
+
+              <div id="vimage">
+                  <img src="img/adorable-1854096__340.jpg" alt="">
+              </div>
+              <div class="form" id="form">
+                    <form action="" method="">
+                        <h1>Volunteer Application Form</h1>
+                        <fieldset>
+                            <div>
+            
+                            <legend>
+                                <span class="section">1</span> Personal Details </legend>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" value=""><br>
+                    
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" value=""><br>
+                    
+                                <label for="phoneNumber">Contact No:</label>
+                                <input type="text" name="phoneNumber" value=""><br>
+                    
+                                <label for="">Age:</label>
+                    
+                                <input type="radio" name="age" value="Under 18">
+                                <label class = "light" for="under 18">Under 18</label>
+                    
+                                <input type="radio" name="age" value="Over 18">
+                                <label class="light" for="Over 18">Over 18</label><br>
+            
+                                <label for="address">Home Address:</label>
+                                <textarea name="address" id="" cols="30" rows="3"></textarea>
+                                </div>
+                            
+                        </fieldset>
+
+            
+            
+                        <fieldset>
+            
+                            <legend> <span class="section">2</span> Volunteering And Availability</legend>
+            
+                            <label for="volunteer">Area of Interest:</label>
+                            <input type="text" name="field" value="">
+            
+                            <label for="specialvolunteer">Special volunteering: </label>
+                            <textarea name="specialvolunteer"></textarea>
+            <div>
+                            <label>Availability:</label><br>
+                        <!-- Here input the kind of timing you want to useE.g Daytime. Can be changed on request-->
+            
+                            <input type="checkbox" value="daytime" name="availability">
+                            <label class = "light" for="daytime">Daytime</label> <br>
+            
+                            <input type="checkbox" value="evening" name="availability">
+                            <label class="light" for="evening">Evening</label> <br>
+            
+                            <input type="checkbox" value="weekend" name="availability">
+                            <label class="light" for="weekend">Weekend</label> <br>
+            
+                            <input type="checkbox" value="weekday" name="availability">
+                            <label class="light" for="weekday">Weekday</label> <br>
+            
+                            <input type="checkbox" value="flexible" name="availability">
+                            <label class="light" for="flexible">Flexible</label>
+            
+                            <!-- Here is a radio set of number of hours the volunteer can use. He can only pick one -->
+            <div>
+                            <label for="">Hours Volunteered per day:</label><br>
+                    
+                                <input type="radio" name="hours" value="2 hours">
+                                <label class = "light" for="under 18">2 hours</label> <br>
+                    
+                                <input type="radio" name="hours" value="4 hours">
+                                <label class="light" for="Over 18">4 hours</label> <br>
+            
+                                <input type="radio" name="hours" value="6 hours">
+                                <label class="light" for="Over 18">6 hours</label> <br>
+            
+                                <input type="radio" name="hours" value="8 hours">
+                                <label class="light" for="Over 18">8 hours</label> <br>
+            
+                                <input type="radio" name="hours" value="10 hours">
+                                <label class="light" for="Over 18">10 hours</label>
+                                </div>
+            
+                        </fieldset><br>
+            
+                        <button>BECOME A VOLUNTEER</button>
+                
+                    </form>
+                </div>
+<footer>
+                        <a href="https://www.microsoft.com/" target="blank">
+                          <span ><i class="fab fa-microsoft"></i></span>
+                        </a>
+                        <a href="https://www.twitter.com/" target="blank">
+                          <span ><i class="fab fa-twitter"></i></span>
+                          </a>
+                          <a href="https://www.google.com/" target="blank">
+                            <span ><i class="fab fa-google"></i></span>
+                            </a>
+                            <a href="https://www.facebook.com/" target="blank">
+                              <span ><i class="fab fa-facebook"></i></span>
+                              </a>
+                        <p>&COPY;2019CHPro. All right reserved</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                      
+</body>
+</html>
